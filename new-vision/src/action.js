@@ -1,9 +1,8 @@
+
+
 const incAction = () => {
     return {
         type: "INCREMENT",
-        payload: {
-            newValue: 1
-        }
     };
 }
 
@@ -47,11 +46,16 @@ const stopTime = () => {
     return {type: "STOPTIME"}
 }
 
+
+
+
+
+
 export {
     incAction,
     decAction, 
     incIfOddAction,
     asnyc,
     timeAdd,
-    stopTime
+    stopTime,
 }
