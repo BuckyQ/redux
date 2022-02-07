@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AssignOne from './AssignOne';
-import AssignTwo from './AssignTwo';
 import reportWebVitals from './reportWebVitals';
 import store from "./store";
 import { Provider } from 'react-redux';
+import { AssignThree } from './AssignThree';
 
 ReactDOM.render(
   <Provider store={store}>
-    <AssignOne />
-    <AssignTwo />
+    <AssignThree />
   </Provider>,
   document.getElementById('root')
 );
